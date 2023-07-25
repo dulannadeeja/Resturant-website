@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bracuda - your restaurant</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="your resturant" />
+    <meta name="keywords" content="resturant" />
+    <meta name="author" content="dulbey" />
+
+    <!-- Favicon-->
+    <link rel="icon" href="./favicon.svg" type="image/x-icon" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/37c954ca6f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+  <body id="top">
+    <!-- preloader -->
+    <figure class="preloader flex flex-center">
+      <div class="preloader-outer flex flex-center">
+        <div class="preloader-inner">
+          <p class="preloader-text font-family-secondary text-uppercase">
+            loading...
+          </p>
+        </div>
+      </div>
+      <div
+        class="preloader-content text-uppercase font-family-secondary display-h1 font-weight-bold"
+      >
+        <p>baracuda</p>
+      </div>
+    </figure>
+
+    <!-- top bar -->
+    <aside class="top-bar active">
+      <ul class="top-bar-items flex">
+        <li class="top-bar-item display-h6 font-weight-semiBold">
+          <a href="/location">
+            <address>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>liberty city, union place, homagama, LK</span>
+            </address>
+          </a>
+        </li>
+        <li class="top-bar-item display-h6 font-weight-semiBold">
+          <i class="fa-solid fa-clock fa-shake"></i>
+          <span>Daily: 8.00am to 10.00pm</span>
+        </li>
+        <li class="top-bar-item display-h6 font-weight-semiBold top-bar-link">
+          <a href="tel:+94771234567">
+            <i class="fa-solid fa-phone"></i>
+            <span>+94 77 123 4567</span>
+          </a>
+        </li>
+        <li class="top-bar-item display-h6 font-weight-semiBold top-bar-link">
+          <a href="mailto:companymail@mail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>booking@baracuda.com</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- header -->
+    <header class="header active">
+      <div class="container">
+        <a href="#" class="brand-logo flex flex-center">
+          <img src="./assets/images/logo.svg" alt="logo" />
+        </a>
+        <nav class="nav-menu text-capitalize">
+          <ul class="nav-items">
+            <li class="nav-item">
+              <span class="active-icon"></span>
+              <a href="#home" class="nav-link">home</a>
+            </li>
+            <li class="nav-item">
+              <span class="active-icon"></span>
+              <a href="#about" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+              <span class="active-icon"></span>
+              <a href="#menu" class="nav-link">menu</a>
+            </li>
+            <li class="nav-item">
+              <span class="active-icon"></span>
+              <a href="#gallery" class="nav-link">gallery</a>
+            </li>
+            <li class="nav-item">
+              <span class="active-icon"></span>
+              <a href="#reservation" class="nav-link">reservation</a>
+            </li>
+            <li class="nav-item">
+              <span class="active-icon"></span>
+              <a href="#contact" class="nav-link">contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="nav-toggler">
+          <i class="expand fa-solid fa-bars"></i>
+          <i class="close fa-solid fa-circle-xmark"></i>
+        </button>
+        <div class="header-bottom header-bottom-items text-center">
+          <p class="item-title display-h2 text-capitalize">Visit us</p>
+          <div class="header-bottom-item">
+            <a href="/location" class="nav-link">
+              <address>
+                <i class="fa-solid fa-location-dot text-muted"></i>
+                <span class="text-muted"
+                  >liberty city, union place, homagama, LK</span
+                >
+              </address>
+            </a>
+          </div>
+          <div class="header-bottom-item text-muted">
+            <i class="fa-solid fa-clock fa-shake"></i>
+            <span>Daily: 8.00am to 10.00pm</span>
+          </div>
+          <p class="item-title display-h5 text-capitalize">booking requests</p>
+          <div class="header-bottom-item display-h3">
+            <a href="tel:+94771234567">
+              <i class="fa-solid fa-phone fa-beat-fade"></i>
+              <span>+94 77 123 4567</span>
+            </a>
+          </div>
+          <div class="header-bottom-item display-h6">
+            <a href="mailto:companymail@mail.com" class="nav-link">
+              <i class="fa-solid fa-envelope text-muted"></i>
+              <span class="text-muted">booking@baracuda.com</span>
+            </a>
+          </div>
+        </div>
+        <button class="header-btn btn btn-primary">
+          <a href="#reservation" class="nav-link">book a table</a>
+        </button>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- hero -->
+      <section class="hero-section">
+        <ul class="hero-slider">
+          <li class="slider-item slide-01 slide-active">
+            <div class="slide-img">
+              <img src="./assets/images/hero-slider-1.jpg" alt="hero slider" />
+            </div>
+            <div class="container flex flex-center">
+              <div class="slide-content text-center">
+                <div class="slide-content-inner">
+                  <h3
+                    class="slide-subtitle display-h6 text-uppercase font-weight-semi-bold letter-spacing-md slider-reveal"
+                  >
+                    <span class="text-primary">delightful</span> experience
+                  </h3>
+                  <div class="separator slider-reveal">
+                    <img
+                      src="./assets/images/separator.svg"
+                      alt="separator image"
+                    />
+                  </div>
+                  <h2
+                    class="slide-title text-capitalize font-family-secondary slider-reveal"
+                  >
+                    <span class="text-primary">baracuda</span> restaurant
+                  </h2>
+                  <p
+                    class="slide-text display-h6 text-capitalize slider-reveal"
+                  >
+                    <span class="text-primary">baracuda</span> is a restaurant,
+                    bar and coffee roastery located on a busy corner site in
+                    liberty city, union place, homagama, LK.
+                  </p>
+                  <button
+                    class="slide-btn btn btn-secondary text-capitalize slider-reveal"
+                  >
+                    <a href="">view menu</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="slider-item slide-02">
+            <div class="slide-img">
+              <img src="./assets/images/hero-slider-2.jpg" alt="hero slider" />
+            </div>
+            <div class="container flex flex-center">
+              <div class="slide-content text-center">
+                <div class="slide-content-inner">
+                  <h3
+                    class="slide-subtitle display-h6 text-uppercase font-weight-semi-bold letter-spacing-md slider-reveal"
+                  >
+                    <span class="text-primary">delightful</span> experience
+                  </h3>
+                  <div class="separator slider-reveal">
+                    <img
+                      src="./assets/images/separator.svg"
+                      alt="separator image"
+                    />
+                  </div>
+                  <h2
+                    class="slide-title text-capitalize font-family-secondary slider-reveal"
+                  >
+                    <span class="text-primary">baracuda</span> restaurant
+                  </h2>
+                  <p
+                    class="slide-text display-h6 text-capitalize slider-reveal"
+                  >
+                    <span class="text-primary">baracuda</span> is a restaurant,
+                    bar and coffee roastery located on a busy corner site in
+                    liberty city, union place, homagama, LK.
+                  </p>
+                  <button
+                    class="slide-btn btn btn-secondary text-capitalize slider-reveal"
+                  >
+                    <a href="">view menu</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="slider-item slide-03">
+            <div class="slide-img">
+              <img src="./assets/images/hero-slider-3.jpg" alt="hero slider" />
+            </div>
+            <div class="container flex flex-center">
+              <div class="slide-content text-center">
+                <div class="slide-content-inner">
+                  <h3
+                    class="slide-subtitle display-h6 text-uppercase font-weight-semi-bold letter-spacing-md slider-reveal"
+                  >
+                    <span class="text-primary">delightful</span> experience
+                  </h3>
+                  <div class="separator slider-reveal">
+                    <img
+                      src="./assets/images/separator.svg"
+                      alt="separator image"
+                    />
+                  </div>
+                  <h2
+                    class="slide-title text-capitalize font-family-secondary slider-reveal"
+                  >
+                    <span class="text-primary">baracuda</span> restaurant
+                  </h2>
+                  <p
+                    class="slide-text display-h6 text-capitalize slider-reveal"
+                  >
+                    <span class="text-primary">baracuda</span> is a restaurant,
+                    bar and coffee roastery located on a busy corner site in
+                    liberty city, union place, homagama, LK.
+                  </p>
+                  <button
+                    class="slide-btn btn btn-secondary text-capitalize slider-reveal"
+                  >
+                    <a href="">view menu</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <button class="slider-btn prev-btn display-h2">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+        </button>
+        <button class="slider-btn next-btn display-h2">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </button>
+      </section>
+
+      <!-- service -->
+      <section class="section service-section text-center">
+        <div class="container">
+          <h3
+            class="display-h5 font-weight-semi-bold letter-spacing-md text-capitalize mb-md"
+          >
+            flavors for royalty
+          </h3>
+          <h2 class="display-h1 text-capitalize font-family-secondary mb-sm">
+            we offer top notch
+          </h2>
+          <p class="mb-sm text-contrast-light letter-spacing-sm">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            non neque rem nisi, maxime qui delectus animi veniam at quaerat
+            facere excepturi veritatis laudantium sapiente!
+          </p>
+
+          <ul class="service-cards">
+            <li class="service-card mb-md">
+              <a href="" class="card-banner has-before">
+                <figure class="card-banner-img hover-shine">
+                  <img src="./assets/images/service-1.jpg" alt="service card" />
+                </figure>
+              </a>
+              <div class="card-content">
+                <h3 class="display-h5 text-capitalize mb-xsm">breakfast</h3>
+                <a
+                  href=""
+                  class="display-h6 text-capitalize letter-spacing-sm hover-underlined"
+                  >view menu</a
+                >
+              </div>
+            </li>
+            <li class="service-card mb-md">
+              <a href="" class="card-banner has-before">
+                <figure class="card-banner-img hover-shine">
+                  <img src="./assets/images/service-2.jpg" alt="service card" />
+                </figure>
+              </a>
+              <div class="card-content">
+                <h3 class="display-h5 text-capitalize mb-xsm">appetizers</h3>
+                <a
+                  href=""
+                  class="display-h6 text-capitalize letter-spacing-sm hover-underlined"
+                  >view menu</a
+                >
+              </div>
+            </li>
+            <li class="service-card mb-md">
+              <a href="" class="card-banner has-before">
+                <figure class="card-banner-img hover-shine">
+                  <img src="./assets/images/service-3.jpg" alt="service card" />
+                </figure>
+              </a>
+              <div class="card-content">
+                <h3 class="display-h5 text-capitalize mb-xsm">beverages</h3>
+                <a
+                  href=""
+                  class="display-h6 text-capitalize letter-spacing-sm hover-underlined"
+                  >view menu</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <img
+          src="./assets/images/shape-1.png"
+          alt="shape"
+          loading="lazy"
+          class="bg-shape"
+        />
+        <img
+          src="./assets/images/shape-2.png"
+          alt="shape"
+          loading="lazy"
+          class="bg-shape"
+        />
+      </section>
+
+      <!-- about -->
+      <section class="section about-section text-center">
+        <div class="container">
+          <div class="section-content">
+            <h3
+              class="display-h5 font-weight-semi-bold letter-spacing-md text-capitalize mb-sm"
+            >
+              our story
+            </h3>
+            <div class="separator slider-reveal mb-sm">
+              <img src="./assets/images/separator.svg" alt="separator image" />
+            </div>
+            <h2 class="display-h1 text-capitalize font-family-secondary mb-md">
+              every flavor tells a story
+            </h2>
+            <p class="text-contrast-light letter-spacing-sm mb-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              quis ipsa nesciunt vero quas, sint, dicta fugit illo quod
+              temporibus alias quos illum delectus provident?
+            </p>
+            <div class="contact-info">
+              <p class="contact-label text-capitalize mb-xsm">
+                book through call
+              </p>
+              <a
+                href="tel:+94722146452"
+                class="display-h2 font-family-secondary mb-md text-primary"
+                >+94 (722) 146 452</a
+              >
+            </div>
+            <a href="" class="btn btn-secondary mb-lg">
+              <span>read more</span>
+            </a>
+          </div>
+          <figure class="section-banner">
+            <div
+              class="about-banner-bg"
+              data-parallax-effect
+              data-parallax-speed="1"
+            >
+              <img src="./assets/images/about-banner.jpg" alt="about image" />
+            </div>
+            <div
+              class="about-banner"
+              data-parallax-effect
+              data-parallax-speed="1.75"
+            >
+              <div class="has-before">
+                <img
+                  src="./assets/images/about-abs-image.jpg"
+                  alt="about image"
+                />
+              </div>
+            </div>
+            <div
+              class="banner-badge"
+              data-parallax-effect
+              data-parallax-speed="2"
+            >
+              <div class="badge-wrapper">
+                <div class="badge-bg">
+                  <img src="./assets/images/badge-2-bg.png" alt="about image" />
+                </div>
+                <div class="badge">
+                  <img src="./assets/images/badge-2.png" alt="about image" />
+                </div>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <img
+          src="./assets/images/shape-3.png"
+          alt="shape"
+          loading="lazy"
+          class="bg-shape"
+        />
+      </section>
+
+      <!-- promotion-->
+      <section class="section promo-section text-center">
+        <div class="promo-banner mb-lg">
+          <img
+            src="./assets/images/special-dish-banner.jpg"
+            alt="promo image"
+          />
+        </div>
+        <div class="container">
+          <div class="promo-content">
+            <div class="promo-badge mb-sm">
+              <img src="./assets/images/badge-1.png" alt="promo image" />
+            </div>
+            <div class="promo-info">
+              <h3
+                class="display-h5 font-weight-semi-bold letter-spacing-md text-capitalize mb-sm"
+              >
+                special dishes
+              </h3>
+              <div class="separator slider-reveal mb-sm">
+                <img
+                  src="./assets/images/separator.svg"
+                  alt="separator image"
+                />
+              </div>
+              <h2
+                class="display-h1 text-capitalize font-family-secondary mb-md"
+              >
+                <span class="text-primary">50% off</span> on all dishes
+              </h2>
+              <p class="text-contrast-light letter-spacing-sm mb-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit quis ipsa nesciunt vero quas, sint, dicta fugit illo
+                quod temporibus alias quos illum delectus provident?
+              </p>
+              <ul class="promo-dishes mb-lg">
+                <li class="card dish-card mb-md">
+                  <figure class="card-banner mb-md">
+                    <img src="./assets/images/menu-1.png" alt="dish image" />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="dish-title mb-xsm text-capitalize">
+                      cheesemaster
+                    </h3>
+                    <p class="dish-price mb-md">
+                      <span
+                        class="price display-h3 text-primary font-family-secondary"
+                        >LKR 1,500</span
+                      >
+                      <span class="old-price">LKR 2,500</span>
+                    </p>
+                    <a href="" class="btn btn-secondary"
+                      ><span class="text-capitalize">buy now</span></a
+                    >
+                  </div>
+                </li>
+                <li class="card dish-card mb-md">
+                  <figure class="card-banner mb-md">
+                    <img src="./assets/images/menu-2.png" alt="dish image" />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="dish-title mb-xsm text-capitalize">
+                      chikenlovers
+                    </h3>
+                    <p class="dish-price mb-md">
+                      <span
+                        class="price display-h3 text-primary font-family-secondary"
+                        >LKR 1,500</span
+                      >
+                      <span class="old-price">LKR 2,500</span>
+                    </p>
+                    <a href="" class="btn btn-secondary"
+                      ><span class="text-capitalize">buy now</span></a
+                    >
+                  </div>
+                </li>
+                <li class="card dish-card mb-md">
+                  <figure class="card-banner mb-md">
+                    <img src="./assets/images/menu-3.png" alt="dish image" />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="dish-title mb-xsm text-capitalize">
+                      cheesemaster
+                    </h3>
+                    <p class="dish-price mb-md">
+                      <span
+                        class="price display-h3 text-primary font-family-secondary"
+                        >LKR 1,500</span
+                      >
+                      <span class="old-price">LKR 2,500</span>
+                    </p>
+                    <a href="" class="btn btn-secondary"
+                      ><span class="text-capitalize">buy now</span></a
+                    >
+                  </div>
+                </li>
+              </ul>
+              <a href="" class="btn btn-secondary view-more">
+                <span class="text-capitalize">view all dishes</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/images/shape-4.png"
+          alt="shape"
+          loading="lazy"
+          class="bg-shape"
+        />
+        <img
+          src="./assets/images/shape-9.png"
+          alt="shape"
+          loading="lazy"
+          class="bg-shape"
+        />
+      </section>
+
+      <!-- menu -->
+      <section class="section menu-section text-center">
+        <div class="container">
+          <h3
+            class="display-h5 font-weight-semi-bold letter-spacing-md text-capitalize mb-sm"
+          >
+            special selection
+          </h3>
+          <div class="separator slider-reveal mb-sm">
+            <img src="./assets/images/separator.svg" alt="separator image" />
+          </div>
+          <h2 class="display-h1 text-capitalize font-family-secondary mb-lg">
+            <span class="text-primary">delicious</span> menu
+          </h2>
+          <ul class="menu-items mb-lg">
+            <li class="card menu-item-card mb-md">
+              <a href=""
+                ><figure class="card-banner mb-md">
+                  <img src="./assets/images/menu-1.png" alt="dish image" />
+                </figure>
+                <div class="card-content text-left mb-xsm">
+                  <h3 class="menu-item-title text-capitalize">greek salad</h3>
+                  <p class="menu-item-tag mb-sm text-capitalize">seasonal</p>
+                  <p class="menu-item-price mb-sm">
+                    <span
+                      class="price display-h3 text-neutral font-family-secondary"
+                      >LKR 1,500</span
+                    >
+                  </p>
+                  <p class="menu-item-ingrediants text-contrast-light">
+                    tomato, cucumber, onion, olives, feta cheese, olive oil,
+                    salt and pepper
+                  </p>
+                </div></a
+              >
+            </li>
+            <li class="card menu-item-card mb-md">
+              <a href=""
+                ><figure class="card-banner mb-md">
+                  <img src="./assets/images/menu-2.png" alt="dish image" />
+                </figure>
+                <div class="card-content text-left mb-xsm">
+                  <h3 class="menu-item-title text-capitalize">lasagne</h3>
+                  <p class="menu-item-price mb-sm">
+                    <span
+                      class="price display-h3 text-neutral font-family-secondary"
+                      >LKR 2,460</span
+                    >
+                  </p>
+                  <p class="menu-item-ingrediants text-contrast-light">
+                    vegetable lasagne with tomato sauce, bechamel sauce, cheese,
+                    salt and pepper
+                  </p>
+                </div></a
+              >
+            </li>
+            <li class="card menu-item-card mb-md">
+              <a href=""
+                ><figure class="card-banner mb-md">
+                  <img src="./assets/images/menu-3.png" alt="dish image" />
+                </figure>
+                <div class="card-content text-left mb-xsm">
+                  <h3 class="menu-item-title text-capitalize">
+                    butternut pumpkin
+                  </h3>
+                  <p class="menu-item-tag mb-sm text-capitalize">new</p>
+                  <p class="menu-item-price mb-sm">
+                    <span
+                      class="price display-h3 text-neutral font-family-secondary"
+                      >LKR 1,349</span
+                    >
+                  </p>
+                  <p class="menu-item-ingrediants text-contrast-light">
+                    pumpkin, onion, garlic, olive oil, garlic, salt, pepper,
+                    vegetable stock, cream, parmesan cheese
+                  </p>
+                </div></a
+              >
+            </li>
+            <li class="card menu-item-card mb-md">
+              <a href=""
+                ><figure class="card-banner mb-md">
+                  <img src="./assets/images/menu-4.png" alt="dish image" />
+                </figure>
+                <div class="card-content text-left mb-xsm">
+                  <h3 class="menu-item-title text-capitalize">tokusen wagyu</h3>
+                  <p class="menu-item-price mb-sm">
+                    <span
+                      class="price display-h3 text-neutral font-family-secondary"
+                      >LKR 1,500</span
+                    >
+                  </p>
+                  <p class="menu-item-ingrediants text-contrast-light">
+                    avacado with cheese, tomato, onion, lettuce, mayonnaise and
+                    ketchup
+                  </p>
+                </div></a
+              >
+            </li>
+            <li class="card menu-item-card mb-md">
+              <a href=""
+                ><figure class="card-banner mb-md">
+                  <img src="./assets/images/menu-5.png" alt="dish image" />
+                </figure>
+                <div class="card-content text-left mb-xsm">
+                  <h3 class="menu-item-title text-capitalize">cheesemaster</h3>
+                  <p class="menu-item-price mb-sm">
+                    <span
+                      class="price display-h3 text-neutral font-family-secondary"
+                      >LKR 1,500</span
+                    >
+                  </p>
+                  <p class="menu-item-ingrediants text-contrast-light">
+                    avacado with cheese, tomato, onion, lettuce, mayonnaise and
+                    ketchup
+                  </p>
+                </div></a
+              >
+            </li>
+            <li class="card menu-item-card mb-md">
+              <a href=""
+                ><figure class="card-banner mb-md">
+                  <img src="./assets/images/menu-6.png" alt="dish image" />
+                </figure>
+                <div class="card-content text-left mb-xsm">
+                  <h3 class="menu-item-title text-capitalize">cheesemaster</h3>
+                  <p class="menu-item-tag mb-sm text-capitalize">seasonal</p>
+                  <p class="menu-item-price mb-sm">
+                    <span
+                      class="price display-h3 text-neutral font-family-secondary"
+                      >LKR 1,500</span
+                    >
+                  </p>
+                  <p class="menu-item-ingrediants text-contrast-light">
+                    avacado with cheese, tomato, onion, lettuce, mayonnaise and
+                    ketchup
+                  </p>
+                </div></a
+              >
+            </li>
+          </ul>
+          <p class="mb-lg">
+            during the <span class="font-family-secondary">summer</span> months,
+            daily from <span class="text-neutral">12:00</span> to
+            <span class="text-neutral">15:00</span>, we offer a
+            <span class="text-primary">20% discounts</span> on all seasonal
+            dishes from the menu.
+          </p>
+          <a href="" class="btn btn-secondary view-more">
+            <span class="text-capitalize">view all</span>
+          </a>
+        </div>
+        <img
+          src="./assets/images/shape-5.png"
+          alt="shape"
+          loading="lazy"
+          class="bg-shape"
+        />
+        <img
+          src="./assets/images/shape-6.png"
+          alt="shape"
+          loading="lazy"
+          class="bg-shape"
+        />
+      </section>
+
+      <!-- testimonials -->
+      <section
+        class="section testimonials-section text-center"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')"
+      >
+        <div class="container">
+          <div class="quote display-h1 mb-lg">
+            <i class="fa-solid fa-quote-right fa-bounce"></i>
+          </div>
+          <p class="testimonial-text mb-lg letter-spacing-sm">
+            I wanted to thank you for inviting me for that amazing dinner. the
+            food was extraordinary. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Vero minima, ab repudiandae maxime laudantium
+            accusantium.
+          </p>
+          <div class="separator mb-md">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="testimonial-profile">
+            <div class="profile-img mb-md">
+              <img src="./assets/images/testi-avatar.jpg" alt="profile image" />
+            </div>
+            <div class="profile-info">
+              <h3 class="profile-name mb-xsm display-h5">john doe</h3>
+              <p class="profile-designation">ceo, abc company</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- reservation -->
+      <section class="section reservation-section text-center">
+        <div class="container">
+          <h2 class="display-h1 text-capitalize font-family-secondary mb-sm">
+            <span class="">online</span> reservation
+          </h2>
+          <h3 class="display-h5 font-weight-medium text-capitalize mb-lg">
+            booking request
+            <a href="tel:+94722146452" class="text-primary">+94 72 146 452</a>
+            or fill out the form below and we will contact you as soon as
+            possible.
+          </h3>
+
+          <form action="">
+            <div class="form-group mb-md">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group mb-md">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group mb-md">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Phone Number"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group mb-md">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-calendar"></i>
+              </div>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                placeholder="dd-mm-yyyy"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group mb-md">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <input
+                type="time"
+                name="time"
+                id="time"
+                placeholder=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group mb-md">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-user-group"></i>
+              </div>
+              <select name="guests" id="guests" class="form-control">
+                <option value="1">1 guest</option>
+                <option value="2">2 guests</option>
+                <option value="3">3 guests</option>
+                <option value="4">4 guests</option>
+                <option value="5">5 guests</option>
+                <option value="6">6 guests</option>
+                <option value="7">7 guests</option>
+                <option value="8">8 guests</option>
+                <option value="9">9 guests</option>
+                <option value="10">10 guests</option>
+              </select>
+            </div>
+            <div class="form-group mb-md">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-message"></i>
+              </div>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="1"
+                placeholder="message"
+                class="form-control"
+              ></textarea>
+            </div>
+            <div class="mb-lg">
+              <button type="submit" class="btn btn-secondary">
+                <i class="fa-solid fa-utensils"></i>
+                <span class="text-capitalize">book a table</span>
+              </button>
+            </div>
+          </form>
+
+          <div
+            class="resturant-info"
+            style="background-image: url('./assets/images/form-pattern.png')"
+          >
+            <div class="info-item mb-md">
+              <h4
+                class="display-h5 mb-xsm text-capitalize font-weight-semiBold"
+              >
+                Contact us
+              </h4>
+              <p class="mb-xsm hover-underlined display-h2">
+                <a href="tel:+94722146452">
+                  <i class="fa-solid fa-phone-volume text-primary"></i>
+                  <span class="font-family-secondary text-primary"
+                    >+94 72 146 452</span
+                  >
+                </a>
+              </p>
+            </div>
+            <div class="info-item mb-md">
+              <h4
+                class="display-h5 mb-xsm text-capitalize font-weight-semiBold"
+              >
+                location
+              </h4>
+              <address class="mb-xsm hover-underlined">
+                <span class="text-muted"
+                  >270, union place, hilton ave, <br />
+                  homagama, LK</span
+                >
+              </address>
+            </div>
+            <div class="info-item mb-md">
+              <h4
+                class="display-h5 mb-xsm text-capitalize font-weight-semiBold"
+              >
+                lunch time
+              </h4>
+              <p class="mb-xsm hover-underlined">
+                <span class="text-muted">monday to sunday</span><br />
+                <span class="time">11.00am - 2.30pm</span>
+              </p>
+            </div>
+            <div class="info-item">
+              <h4
+                class="display-h5 mb-xsm text-capitalize font-weight-semiBold"
+              >
+                dinner time
+              </h4>
+              <p class="mb-xsm hover-underlined">
+                <span class="text-muted">monday to sunday</span><br />
+                <span class="time">5.00pm - 10.00pm</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- feature -->
+      <section class="feature-section section text-center">
+        <div class="container">
+          <h3
+            class="display-h5 font-weight-semi-bold letter-spacing-md text-capitalize mb-sm"
+          >
+            why choose us
+          </h3>
+          <div class="separator slider-reveal mb-sm">
+            <img src="./assets/images/separator.svg" alt="separator image" />
+          </div>
+          <h2 class="display-h1 text-capitalize font-family-secondary mb-lg">
+            <span class="text-primary">our</span> strength
+          </h2>
+          <ul class="feature-cards">
+            <li class="card feature-card mb-md">
+              <div class="card-img mb-md">
+                <img
+                  src="./assets/images/features-icon-1.png"
+                  alt="feature image"
+                />
+              </div>
+              <div class="card-content">
+                <h3 class="card-title mb-sm text-capitalize">hygienic food</h3>
+                <p class="card-desc text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate dolorum
+                </p>
+              </div>
+            </li>
+            <li class="card feature-card mb-md">
+              <div class="card-img mb-md">
+                <img
+                  src="./assets/images/features-icon-2.png"
+                  alt="feature image"
+                />
+              </div>
+              <div class="card-content">
+                <h3 class="card-title mb-sm text-capitalize">
+                  fresh environment
+                </h3>
+                <p class="card-desc text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate dolorum
+                </p>
+              </div>
+            </li>
+            <li class="card feature-card mb-md">
+              <div class="card-img mb-md">
+                <img
+                  src="./assets/images/features-icon-3.png"
+                  alt="feature image"
+                />
+              </div>
+              <div class="card-content">
+                <h3 class="card-title mb-sm text-capitalize">skilled chefs</h3>
+                <p class="card-desc text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate dolorum
+                </p>
+              </div>
+            </li>
+            <li class="card feature-card mb-md">
+              <div class="card-img mb-md">
+                <img
+                  src="./assets/images/features-icon-4.png"
+                  alt="feature image"
+                />
+              </div>
+              <div class="card-content">
+                <h3 class="card-title mb-sm text-capitalize">events & party</h3>
+                <p class="card-desc text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate dolorum
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- events -->
+      <!-- service -->
+      <section class="section events-section text-center">
+        <div class="container">
+          <h3
+            class="display-h5 font-weight-semi-bold letter-spacing-md text-capitalize mb-md"
+          >
+            recent updates
+          </h3>
+          <h2 class="display-h1 text-capitalize font-family-secondary mb-sm">
+            upcoming events
+          </h2>
+          <p class="mb-sm text-contrast-light letter-spacing-sm">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            non neque rem nisi, maxime qui delectus animi veniam at quaerat
+            facere excepturi veritatis laudantium sapiente!
+          </p>
+
+          <ul class="event-cards">
+            <li class="event-card mb-md">
+              <a href="" class="card-banner">
+                <figure class="card-banner-img hover-shine">
+                  <img src="./assets/images/event-1.jpg" alt="service card" />
+                  <p class="banner-date font-weight-semiBold">01/06/2023</p>
+                </figure>
+              </a>
+              <div class="card-content">
+                <h3 class="display-h5 text-capitalize mb-sm">food festival</h3>
+                <p class="card-desc display-h5">
+                  flavour so good you'll try to eat with your eyes.
+                </p>
+              </div>
+            </li>
+            <li class="event-card mb-md">
+              <a href="" class="card-banner">
+                <figure class="card-banner-img hover-shine">
+                  <img src="./assets/images/event-2.jpg" alt="service card" />
+                  <p class="banner-date font-weight-semiBold">01/06/2023</p>
+                </figure>
+              </a>
+              <div class="card-content">
+                <h3 class="display-h5 text-capitalize mb-sm">
+                  no cook tuesday
+                </h3>
+                <p class="card-desc display-h5">
+                  flavour so good you'll try to eat with your eyes.
+                </p>
+              </div>
+            </li>
+            <li class="event-card mb-md">
+              <a href="" class="card-banner">
+                <figure class="card-banner-img hover-shine">
+                  <img src="./assets/images/event-3.jpg" alt="service card" />
+                  <p class="banner-date font-weight-semiBold">01/06/2023</p>
+                </figure>
+              </a>
+              <div class="card-content">
+                <h3 class="display-h5 text-capitalize mb-sm">grand opening</h3>
+                <p class="card-desc display-h5">
+                  flavour so good you'll try to eat with your eyes.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <a href="" class="btn btn-secondary view-more">
+            <span class="text-capitalize">view our blog</span>
+          </a>
+        </div>
+        <img
+          src="./assets/images/shape-8.png"
+          alt="shape"
+          loading="lazy"
+          class="bg-shape"
+        />
+        <img
+          src="./assets/images/shape-9.png"
+          alt="shape"
+          loading="lazy"
+          class="bg-shape"
+        />
+      </section>
+
+      <!-- footer -->
+      <footer
+        class="section footer-section"
+        style="
+          background-image: url(./assets/images/footer-bg.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="container">
+          <div
+            class="footer-top text-center"
+            style="background-image: url(./assets/images/footer-form-bg.png)"
+          >
+            <div class="brand-logo mb-lg">
+              <a href="#"><img src="./assets/images/logo.svg" alt="logo" /></a>
+            </div>
+
+            <address class="mb-md">
+              270, union place, hilton ave, homagama, LK
+            </address>
+
+            <a href="mailto:baracuda@booking.com" class="mb-md"
+              >baracuda@booking.com</a
+            >
+
+            <a href="tel:+94722146452" class="mb-md text-muted"
+              >Booking request :
+              <span class="text-white">+94 722 146 415</span></a
+            >
+
+            <div class="business-hours mb-lg text-muted">
+              Open : <span class="text-white">9.00am - 1.00pm</span>
+            </div>
+
+            <div class="newsletter-wrapper">
+              <h3 class="text-capitalize mb-xsm">get news & offers</h3>
+              <p class="mb-sm text-muted">
+                Subscribe us to get <span class="text-white">25% off</span> on
+                1st order.
+              </p>
+              <form action="" class="newsletter-form">
+                <div class="form-group mb-sm">
+                  <div class="icon-wrapper">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email Address"
+                    class="form-control"
+                  />
+                </div>
+                <button type="submit" class="btn btn-secondary">
+                  <i class="fa-solid fa-bell-concierge fa-bounce"></i>
+                  <span class="text-capitalize">subscribe</span>
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="footer-links-wrapper text-center text-uppercase">
+            <ul class="footer-links mb-lg">
+              <li class="footer-link mb-sm hover-underlined"><a href="">Home</a></li>
+              <li class="footer-link mb-sm hover-underlined"><a href="">Menu</a></li>
+              <li class="footer-link mb-sm hover-underlined"><a href="">Our Chefs</a></li>
+              <li class="footer-link mb-sm hover-underlined"><a href="">About Us</a></li>
+              <li class="footer-link hover-underlined"><a href="">Contact</a></li>
+            </ul>
+            <ul class="footer-links">
+              <li class="footer-link mb-sm hover-underlined"><a href="">Facebook</a></li>
+              <li class="footer-link mb-sm hover-underlined"><a href="">Instagram</a></li>
+              <li class="footer-link mb-sm hover-underlined"><a href="">Twitter</a></li>
+              <li class="footer-link mb-sm hover-underlined"><a href="">Tiktok</a></li>
+              <li class="footer-link hover-underlined"><a href="">Google Maps</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-bottom text-center">
+            &copy; 2023 baracuda all rights reserved | crafted by <a href="https://dulbey.online.com" class="link-primary">dulbey</a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- navigate to the top -->
+      <div class="back-to-top active">
+        <a href="#top"><i class="fa-solid fa-chevron-up"></i></a>
+      </div>
+
+    </main>
+
+    <!-- js file -->
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
