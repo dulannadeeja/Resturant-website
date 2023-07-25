@@ -55,7 +55,7 @@
 
     <!-- top bar -->
     <aside class="top-bar active">
-      <ul class="top-bar-items flex">
+      <ul class="top-bar-items top-bar-group">
         <li class="top-bar-item display-h6 font-weight-semiBold">
           <a href="/location">
             <address>
@@ -68,6 +68,8 @@
           <i class="fa-solid fa-clock fa-shake"></i>
           <span>Daily: 8.00am to 10.00pm</span>
         </li>
+      </ul>
+      <ul class="top-bar-items top-bar-group">
         <li class="top-bar-item display-h6 font-weight-semiBold top-bar-link">
           <a href="tel:+94771234567">
             <i class="fa-solid fa-phone"></i>
@@ -357,18 +359,20 @@
             </li>
           </ul>
         </div>
-        <img
+        <figure class="bg-shape">
+          <img
           src="./assets/images/shape-1.png"
           alt="shape"
           loading="lazy"
-          class="bg-shape"
         />
-        <img
+        </figure>
+        <figure class="bg-shape">
+          <img
           src="./assets/images/shape-2.png"
           alt="shape"
           loading="lazy"
-          class="bg-shape"
         />
+        </figure>
       </section>
 
       <!-- about -->
@@ -479,91 +483,106 @@
               >
                 <span class="text-primary">50% off</span> on all dishes
               </h2>
-              <p class="text-contrast-light letter-spacing-sm mb-lg">
+              <p class="text-contrast-light letter-spacing-sm mb-md">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Suscipit quis ipsa nesciunt vero quas, sint, dicta fugit illo
                 quod temporibus alias quos illum delectus provident?
               </p>
-              <ul class="promo-dishes mb-lg">
-                <li class="card dish-card mb-md">
-                  <figure class="card-banner mb-md">
-                    <img src="./assets/images/menu-1.png" alt="dish image" />
-                  </figure>
-                  <div class="card-content">
-                    <h3 class="dish-title mb-xsm text-capitalize">
-                      cheesemaster
-                    </h3>
-                    <p class="dish-price mb-md">
-                      <span
-                        class="price display-h3 text-primary font-family-secondary"
-                        >LKR 1,500</span
-                      >
-                      <span class="old-price">LKR 2,500</span>
-                    </p>
-                    <a href="" class="btn btn-secondary"
-                      ><span class="text-capitalize">buy now</span></a
-                    >
-                  </div>
-                </li>
-                <li class="card dish-card mb-md">
-                  <figure class="card-banner mb-md">
-                    <img src="./assets/images/menu-2.png" alt="dish image" />
-                  </figure>
-                  <div class="card-content">
-                    <h3 class="dish-title mb-xsm text-capitalize">
-                      chikenlovers
-                    </h3>
-                    <p class="dish-price mb-md">
-                      <span
-                        class="price display-h3 text-primary font-family-secondary"
-                        >LKR 1,500</span
-                      >
-                      <span class="old-price">LKR 2,500</span>
-                    </p>
-                    <a href="" class="btn btn-secondary"
-                      ><span class="text-capitalize">buy now</span></a
-                    >
-                  </div>
-                </li>
-                <li class="card dish-card mb-md">
-                  <figure class="card-banner mb-md">
-                    <img src="./assets/images/menu-3.png" alt="dish image" />
-                  </figure>
-                  <div class="card-content">
-                    <h3 class="dish-title mb-xsm text-capitalize">
-                      cheesemaster
-                    </h3>
-                    <p class="dish-price mb-md">
-                      <span
-                        class="price display-h3 text-primary font-family-secondary"
-                        >LKR 1,500</span
-                      >
-                      <span class="old-price">LKR 2,500</span>
-                    </p>
-                    <a href="" class="btn btn-secondary"
-                      ><span class="text-capitalize">buy now</span></a
-                    >
-                  </div>
-                </li>
-              </ul>
-              <a href="" class="btn btn-secondary view-more">
-                <span class="text-capitalize">view all dishes</span>
-              </a>
+              <p class="dish-price mb-md">
+                <span
+                  class="price display-h3 text-primary font-family-secondary"
+                  >LKR 1,500</span
+                >
+                <span class="old-price">LKR 2,500</span>
+              </p>
+              <a href="" class="btn btn-secondary"
+                ><span class="text-capitalize">buy now</span></a
+              >
             </div>
           </div>
         </div>
-        <img
+        <div class="container text-center">
+          <ul class="promo-dishes mb-lg">
+            <li class="card dish-card mb-md">
+              <figure class="card-banner mb-md">
+                <img src="./assets/images/menu-1.png" alt="dish image" />
+              </figure>
+              <div class="card-content">
+                <h3 class="dish-title mb-xsm text-capitalize">
+                  cheesemaster
+                </h3>
+                <p class="dish-price mb-md">
+                  <span
+                    class="price display-h3 text-primary font-family-secondary"
+                    >LKR 1,500</span
+                  >
+                  <span class="old-price">LKR 2,500</span>
+                </p>
+                <a href="" class="btn btn-secondary"
+                  ><span class="text-capitalize">buy now</span></a
+                >
+              </div>
+            </li>
+            <li class="card dish-card mb-md">
+              <figure class="card-banner mb-md">
+                <img src="./assets/images/menu-2.png" alt="dish image" />
+              </figure>
+              <div class="card-content">
+                <h3 class="dish-title mb-xsm text-capitalize">
+                  chikenlovers
+                </h3>
+                <p class="dish-price mb-md">
+                  <span
+                    class="price display-h3 text-primary font-family-secondary"
+                    >LKR 1,500</span
+                  >
+                  <span class="old-price">LKR 2,500</span>
+                </p>
+                <a href="" class="btn btn-secondary"
+                  ><span class="text-capitalize">buy now</span></a
+                >
+              </div>
+            </li>
+            <li class="card dish-card mb-md">
+              <figure class="card-banner mb-md">
+                <img src="./assets/images/menu-3.png" alt="dish image" />
+              </figure>
+              <div class="card-content">
+                <h3 class="dish-title mb-xsm text-capitalize">
+                  cheesemaster
+                </h3>
+                <p class="dish-price mb-md">
+                  <span
+                    class="price display-h3 text-primary font-family-secondary"
+                    >LKR 1,500</span
+                  >
+                  <span class="old-price">LKR 2,500</span>
+                </p>
+                <a href="" class="btn btn-secondary"
+                  ><span class="text-capitalize">buy now</span></a
+                >
+              </div>
+            </li>
+          </ul>
+          <a href="" class="btn btn-secondary view-more">
+            <span class="text-capitalize">view all dishes</span>
+          </a>
+        </div>
+        <figure class="bg-shape">
+          <img
           src="./assets/images/shape-4.png"
           alt="shape"
           loading="lazy"
-          class="bg-shape"
         />
-        <img
+        </figure>
+        <figure class="bg-shape">
+          <img
           src="./assets/images/shape-9.png"
           alt="shape"
           loading="lazy"
-          class="bg-shape"
         />
+        </figure>
+        
       </section>
 
       <!-- menu -->
@@ -718,34 +737,34 @@
             <span class="text-capitalize">view all</span>
           </a>
         </div>
-        <img
+        <figure class="bg-shape">
+          <img
           src="./assets/images/shape-5.png"
           alt="shape"
           loading="lazy"
-          class="bg-shape"
         />
-        <img
+        </figure>
+        <figure class="bg-shape">
+          <img
           src="./assets/images/shape-6.png"
           alt="shape"
           loading="lazy"
-          class="bg-shape"
         />
+        </figure>
       </section>
 
       <!-- testimonials -->
       <section
         class="section testimonials-section text-center"
-        style="background-image: url('./assets/images/testimonial-bg.jpg')"
       >
+      <div class="testimonials-wrapper" style="background-image: url('./assets/images/testimonial-bg.jpg')">
         <div class="container">
           <div class="quote display-h1 mb-lg">
             <i class="fa-solid fa-quote-right fa-bounce"></i>
           </div>
-          <p class="testimonial-text mb-lg letter-spacing-sm">
+          <p class="testimonial-text mb-lg letter-spacing-sm display-h4">
             I wanted to thank you for inviting me for that amazing dinner. the
-            food was extraordinary. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Vero minima, ab repudiandae maxime laudantium
-            accusantium.
+            food was extraordinary.
           </p>
           <div class="separator mb-md">
             <span></span>
@@ -762,6 +781,7 @@
             </div>
           </div>
         </div>
+      </div>
       </section>
 
       <!-- reservation -->
@@ -868,14 +888,15 @@
                 class="form-control"
               ></textarea>
             </div>
-            <div class="mb-lg">
+            <div class="mb-lg reserve-button">
               <button type="submit" class="btn btn-secondary">
                 <i class="fa-solid fa-utensils"></i>
                 <span class="text-capitalize">book a table</span>
               </button>
             </div>
           </form>
-
+        </div>
+        <div class="container">
           <div
             class="resturant-info"
             style="background-image: url('./assets/images/form-pattern.png')"
